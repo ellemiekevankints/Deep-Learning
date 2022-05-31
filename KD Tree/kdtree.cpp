@@ -17,7 +17,6 @@ struct Node
 // a method to create a node of kd tree
 struct Node* newNode(int arr[]) 
 {
-    
     struct Node* temp = new Node;
 
     for (int i = 0; i < k; i++) 
